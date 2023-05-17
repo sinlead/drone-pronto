@@ -1,4 +1,4 @@
-FROM ruby:2.6.6
+FROM ruby:3.2.2
 RUN apt-get update && apt-get install -y cmake
 COPY Gemfile Gemfile
 RUN gem install specific_install
